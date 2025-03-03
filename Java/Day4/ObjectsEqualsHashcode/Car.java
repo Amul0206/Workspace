@@ -26,7 +26,7 @@ public class Car {
 //     }
 
 //     public int hashCode(){
-//         return make.hashCode() + model.hashCode() + price;
+//         return 13+make.hashCode() + model.hashCode() + price;
 //     }
 
     @Override
