@@ -1,4 +1,4 @@
-package Java.Day4.HasARelationship;
+package Java_Assignments.Assignment3.Q1;
 
 public class Button {
 
