@@ -4,7 +4,8 @@ public class Book {
     public int isbn;
     public String name;
 
-    public void book(int isbn, String name){
+    public Book(int isbn, String name){
+        //super();
         this.isbn = isbn;
         this.name = name;
     }
