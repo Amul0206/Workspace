@@ -1,0 +1,223 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "NewMath",
+            "request": "launch",
+            "mainClass": "Java.Day5.NewMath",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickJavaProcess}"
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Java.Day1and2.Array",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Bank",
+            "request": "launch",
+            "mainClass": "Java.Day1and2.Bank",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Calendar",
+            "request": "launch",
+            "mainClass": "Java.Day1and2.Calendar",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Date",
+            "request": "launch",
+            "mainClass": "Java.Day1and2.Date",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverloading",
+            "request": "launch",
+            "mainClass": "Java.Day1and2.MethodOverloading",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Java.Day1and2.Student",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Java.Day1and2.myPackage.Main",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Coffee",
+            "request": "launch",
+            "mainClass": "Java.Day3.Enum.Coffee",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "CoffeeShop",
+            "request": "launch",
+            "mainClass": "Java.Day3.Enum.CoffeeShop",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "CookieStore",
+            "request": "launch",
+            "mainClass": "Java.Day3.Enum.CookieStore",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Date1",
+            "request": "launch",
+            "mainClass": "Java.Day3.Folder1.src.Date1",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Accounts",
+            "request": "launch",
+            "mainClass": "Java.Day3.InheritanceAbstract.Accounts",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "Java.Day3.InheritanceAbstract.Main",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "Java.Day3.InheritanceInsurance.Main",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Car",
+            "request": "launch",
+            "mainClass": "Java.Day4.HasARelationship.Car",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "ObjectMethods",
+            "request": "launch",
+            "mainClass": "Java.Day4.ObjectsEqualsHashcode.ObjectMethods",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "DemoString",
+            "request": "launch",
+            "mainClass": "Java.Day5.DemoString",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Math",
+            "request": "launch",
+            "mainClass": "Java.Day5.Math",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "TestImmutable",
+            "request": "launch",
+            "mainClass": "Java.Day5.TestImmutable",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "Java_Assignments.Asignment1.BubbleSort",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "DesertStore",
+            "request": "launch",
+            "mainClass": "Java_Assignments.Assignment2.DesertStore",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Controller",
+            "request": "launch",
+            "mainClass": "Java_Assignments.Assignment3.Q1.Controller",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "CarStore",
+            "request": "launch",
+            "mainClass": "Java_Assignments.Assignment3.Q2.CarStore",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "NewCar",
+            "request": "launch",
+            "mainClass": "Java_Assignments.Assignment3.Q3.NewCar",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Anagram",
+            "request": "launch",
+            "mainClass": "Java_Assignments.Assignment4.Anagram",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "StringShiftLeft",
+            "request": "launch",
+            "mainClass": "Java_Assignments.Assignment4.StringShiftLeft",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "UpperLowerSpecial",
+            "request": "launch",
+            "mainClass": "Java_Assignments.Assignment4.UpperLowerSpecial",
+            "projectName": "WORKSPACE_88ac2e1c"
+        }
+    ]
+}
