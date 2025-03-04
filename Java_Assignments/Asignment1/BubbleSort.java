@@ -1,4 +1,4 @@
-package JAVA;
+package Java_Assignments.Asignment1;
 import java.util.*;
 
 public class BubbleSort {
@@ -34,5 +34,6 @@ public class BubbleSort {
         for(int i=0; i<=numbers.length-1; i++){
             System.out.print(numbers[i]+" ");
         }
+        sc.close();
     }
 }

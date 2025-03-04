@@ -1,16 +1,26 @@
 //ASSIGNMENT 2
 
-package JAVA;
+package Java.Day1and2;
 
-class Date{
+public class Date{
+
     int day, year;
+    public Date(int day, String month, int year ) {
+        this.day = day;
+        this.month = month;
+        this.year = year;
+    }
+
+    public Date() {
+        
+    }
     String month;
 
-    public void setDate(int d, String m, int y){
-        day = d;
-        month = m;
-        year = y;
-    }
+    // public void setDate(int d, String m, int y){
+    //     day = d;
+    //     month = m;
+    //     year = y;
+    // }
 
     public int getDay() {
         return day;
@@ -44,8 +54,8 @@ class Date{
         return day + "/" + month + "/" + year;
     }
     public static void main(String[] args) {
-        Date d = new Date();
-        d.setDate(28, "Feb", 2025);
+        Date d = new Date(2, "March", 2025);
+        //d.setDate(28, "Feb", 2025);
         d.getDate();
     }
     

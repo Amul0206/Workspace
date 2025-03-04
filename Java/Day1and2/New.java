@@ -1,4 +1,4 @@
-package JAVA;
+package Java.Day1and2;
 
 class Date{
     private int day, year;

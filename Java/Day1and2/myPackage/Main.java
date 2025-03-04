@@ -1,4 +1,4 @@
-package JAVA.DAY1and2.myPackage;
+package Java.Day1and2.myPackage;
 
 public class Main {
     public static void main(String[] args) {

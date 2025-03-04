@@ -1,6 +1,6 @@
 //ASSIGNMENT_3
 
-package JAVA;
+package Java.Day1and2;
 
 class Student{
 	int rollno;
@@ -19,8 +19,8 @@ class Student{
 	
 	public static void main(String[] args){
 		
-		Student s1 = new Student("Amit");	//Constructor
-		Student s2 = new Student("mehul");
+		//Student s1 = new Student("Amit");	//Constructor
+		//Student s2 = new Student("mehul");
 		Student.displayCount();
 	}
 

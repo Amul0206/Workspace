@@ -1,10 +1,12 @@
 //USE OF STATIC
 
-package JAVA;
+package Java.Day1and2;
 
 public class Account {
 
+    @SuppressWarnings("unused")
     private int accno, balance;
+    @SuppressWarnings("unused")
     private String name;
 
     private static float intrate; //Static is used because it is the property of a class rather than a object...

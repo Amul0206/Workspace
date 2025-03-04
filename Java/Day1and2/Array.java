@@ -1,16 +1,27 @@
-package JAVA;
+package Java.Day1and2;
 
 public class Array {
+
+    public static boolean isPrime(int num){
+        for(int i=2;i<=Math.pow(num, 0.5); i++){
+            if (num%i==0){
+                return false;
+            }
+        }
+        return true;
+    }
+    
     public static void main(String[] args) {
         int arr [] = {1,2,3,4,5}; 
         for (int i=0; i<arr.length; i++){
             System.out.println(arr[i]);
         }
 
+       
         //For...Each loop
         int count = 0 ;
         for(int x : arr){
-            if (Assignment1.isPrime(x)) count++;
+            if (isPrime(x)) count++;
         }
         System.out.println(count);
 
@@ -24,4 +35,5 @@ public class Array {
             System.out.println(darr[i]);
         }
     }
+    
 }

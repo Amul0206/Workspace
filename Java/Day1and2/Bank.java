@@ -1,4 +1,4 @@
-package JAVA;
+package Java.Day1and2;
 
 /* 
  *Static methods are accessed as classname.method name.
