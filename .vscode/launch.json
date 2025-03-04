@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TransposeofaMatrix",
+            "request": "launch",
+            "mainClass": "PRACTICE.TransposeofaMatrix",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "SimpleInterest",
+            "request": "launch",
+            "mainClass": "PRACTICE.SimpleInterest",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
             "name": "Library",
             "request": "launch",
             "mainClass": "Java.Day5.Library",
