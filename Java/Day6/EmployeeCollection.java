@@ -38,7 +38,7 @@ public class EmployeeCollection {
         skills2.add("HTML");
         skills2.add("PHP");
 
-        Employee e4 = new Employee(460, "sss", 60000, skills3);
+        Employee e4 = new Employee(460, "sss", 60000, skills4);
 
         emplist.add(e1);
         emplist.add(e2);
