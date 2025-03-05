@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DemoSet",
+            "request": "launch",
+            "mainClass": "Java.Day6.DemoSet",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "DemoGenerics",
+            "request": "launch",
+            "mainClass": "Java.Day6.DemoGenerics",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Bank",
+            "request": "launch",
+            "mainClass": "Java_Assignments.Assignment5.Bank",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
             "name": "Palindrome",
             "request": "launch",
             "mainClass": "PRACTICE.Palindrome",

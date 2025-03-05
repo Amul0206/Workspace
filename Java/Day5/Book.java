@@ -4,12 +4,14 @@ public class Book {
     public int isbn;
     public String name;
 
+    //PARAMETERIZED CONSTRUCTOR
     public Book(int isbn, String name){
         //super();
         this.isbn = isbn;
         this.name = name;
     }
 
+    //GETTER AND SETTER METHODS
     public int getIsbn() {
         return isbn;
     }

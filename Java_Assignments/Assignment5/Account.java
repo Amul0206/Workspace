@@ -6,6 +6,10 @@ public class Account {
     protected  float accBal;
     protected  String accHolder;
 
+    public int getAccId() {
+        return accId;
+    }
+
     public Account(int accId, float accBal, String accHolder){
         this.accId = accId;
         this.accBal = accBal;
