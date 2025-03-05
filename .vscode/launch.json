@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EmployeePortal",
+            "request": "launch",
+            "mainClass": "Java.Day6.EmployeePortal",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
             "name": "DemoSet",
             "request": "launch",
             "mainClass": "Java.Day6.DemoSet",

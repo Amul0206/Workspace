@@ -2,7 +2,7 @@ package Java.Day6;
 
 import java.util.Set;
 
-public class Employee {
+public class Employee implements Comparable<Employee> {
 
         private int empid;
         private String name;
@@ -46,5 +46,15 @@ public class Employee {
 
         public void setSkills(Set<String> skills) {
             this.skills = skills;
+        }
+
+        @Override
+        public String toString() {
+            return "Employee [empid=" + empid + ", name=" + name + ", salary=" + salary + ", skills=" + skills + "]";
+        }
+
+        @Override
+        public int compareTo(Employee e) {
+            return this.empid - e.empid;
         }
 }

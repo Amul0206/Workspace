@@ -40,5 +40,7 @@ public class DemoList {
         // }
 
         //List<Object> linkedLst = new LinkedList<>();
+
+        
    }    
 }
