@@ -12,10 +12,11 @@ public class StringShiftLeft {
     }
 
     public static void main(String[] args) {
-        String s="VedarthVader";
+        String s="Artificial Intelligence";
         int offset=3;
-        System.out.println(shiftLeft(s));
-        System.out.println(s);
-        System.out.println(shiftLeftBy(s,offset));
+
+        System.out.println("Original String: " + s);
+        System.out.println("String after shifting by 1 place " + shiftLeft(s));
+        System.out.println("String after shifting by " + offset + " places is = " + shiftLeftBy(s,offset));
     }
 }

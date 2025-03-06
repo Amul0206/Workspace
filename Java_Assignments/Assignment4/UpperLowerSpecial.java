@@ -51,7 +51,7 @@ public class UpperLowerSpecial {
 
     public static void main(String[] args) {
 
-        String s1 = new String("@#thYUB%");
+        String s1 = new String("DixitAmit0201@gmail.com");
 
         int TotalCount=0;
 

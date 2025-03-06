@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DemoLambda",
+            "request": "launch",
+            "mainClass": "Java.Day7.DemoLambda",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Spotify",
+            "request": "launch",
+            "mainClass": "Java_Assignments.Assignment6.Spotify",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
             "name": "EmployeePortal",
             "request": "launch",
             "mainClass": "Java.Day6.EmployeePortal",
