@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "New",
+            "request": "launch",
+            "mainClass": "Java.Day1and2.New",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "ColorsMain",
+            "request": "launch",
+            "mainClass": "Java_Assignments.Assignment7.ColorsMain",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionLambda",
+            "request": "launch",
+            "mainClass": "Java.Day7.ExceptionLambda",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "GenericLambda",
+            "request": "launch",
+            "mainClass": "Java.Day7.GenericLambda",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
             "name": "DemoLambda",
             "request": "launch",
             "mainClass": "Java.Day7.DemoLambda",

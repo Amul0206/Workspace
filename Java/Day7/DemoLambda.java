@@ -37,7 +37,8 @@ public class DemoLambda {
         }
         return res;
     }
-        public static void main(String[] args) {
+        @SuppressWarnings("rawtypes")
+        public static void main(NewPredicate[] args) {
     
             Predicate ispositive = (n) -> n > 0;
     
