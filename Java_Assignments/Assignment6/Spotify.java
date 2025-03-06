@@ -1,6 +1,5 @@
 package Java_Assignments.Assignment6;
 
-import java.lang.reflect.Array;
 import java.util.*;
 import java.time.Year;
 
@@ -31,6 +30,7 @@ public class Spotify {
         }
         return result;
     }
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         
         songs.add(new Song(1, "not like us",new HashSet<String>(Arrays.asList("Kendrick Lamar","Drake")), 2024, 1 ));

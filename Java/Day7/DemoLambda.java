@@ -14,6 +14,7 @@ public class DemoLambda {
 
     public static List<Integer> operateOnNumberList(Predicate p, List<Integer> numbers) {
         List<Integer> res= new ArrayList<Integer>();
+        @SuppressWarnings("unused")
         int sum = 0;
         for (int number : numbers) {
             if (p.test(number)) {
