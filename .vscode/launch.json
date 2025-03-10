@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StreamLambda",
+            "request": "launch",
+            "mainClass": "Java_Assignments.Assignment7.StreamLambda",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "BooksTestDrive",
+            "request": "launch",
+            "mainClass": "PRACTICE.Folder.BooksTestDrive",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
             "name": "New",
             "request": "launch",
             "mainClass": "Java.Day1and2.New",
