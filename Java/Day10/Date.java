@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+@SuppressWarnings("unused")
 public class Date {
     public static void main(String[] args) {
         LocalDate today = LocalDate.now();

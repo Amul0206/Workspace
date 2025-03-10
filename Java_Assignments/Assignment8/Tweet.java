@@ -3,6 +3,7 @@ package Java_Assignments.Assignment8;
 import java.util.Date;
 import java.util.HashSet;
 
+@SuppressWarnings("unused")
 public class Tweet {
     String subject;
     int date;
@@ -39,8 +40,6 @@ public class Tweet {
         this.hashtags = hashtags;
     }
     public Object getHashtag() {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getHashtag'");
     }
-    
 }
