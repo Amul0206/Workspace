@@ -35,4 +35,8 @@ public class Employee {
     public void setDept(String dept) {
         this.dept = dept;
     }
+    public int getSalary() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getSalary'");
+    }
 }

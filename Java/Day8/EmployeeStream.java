@@ -3,6 +3,8 @@ package Java.Day8;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
+import java.util.OptionalDouble;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class EmployeeStream {
@@ -18,7 +20,7 @@ public class EmployeeStream {
 
         System.out.println("------------Department wise sorted List------------");
         stream=emplist.stream();
-        Comparator<Employee> byDept=Comparator.comparing(Employee::getDept).thenComparing(byname);
+        Comparator<Employee> byDept=Comparator.comparing(Employee::getDept).thenComparing(byName);
         stream.sorted(byDept).forEach(System.out::println);
 
         System.out.println("------------Employee - Department mapping------------");

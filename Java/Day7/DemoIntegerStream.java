@@ -63,11 +63,11 @@ public class DemoIntegerStream {
         System.out.println("--------------filter vs dropWhile-----------------");
         stream=Arrays.stream(arr);
         //stream.filter((n)->n<20).forEach(System.out::println);
-        List<Integer> filtered=stream.filter((n)->n<20).boxed().collect(Collectors.toList());
+        List<Integer> filtered=stream.filter((n)->n<20).collect(Collectors.toList());
         System.out.println(filtered);
 
         stream=Arrays.stream(arr);
-        List<Integer> dropped=stream.dropWhile((n)->n<20).boxed().collect(Collectors.toList());
+        List<Integer> dropped=stream.dropWhile((n)->n<20).collect(Collectors.toList());
         System.out.println(dropped);
 
         stream=Arrays.stream(arr);

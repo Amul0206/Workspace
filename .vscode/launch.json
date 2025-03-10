@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Date",
+            "request": "launch",
+            "mainClass": "Java.Day10.Date",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
             "name": "StreamLambda",
             "request": "launch",
             "mainClass": "Java_Assignments.Assignment7.StreamLambda",

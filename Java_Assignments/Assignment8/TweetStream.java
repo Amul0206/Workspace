@@ -9,7 +9,7 @@ public class TweetStream {
         List<Tweet> tweetlist=collection.initializedata();
 
         System.out.println("------------all the tweets that are posted in current month------------");
-        tweetlist.stream().filter((tweet)->tweet.getDate().getMonthValue() == java.time.Month.FEBRUARY.getValue()).forEach(System.out::println);
+        tweetlist.stream().filter((tweet)->java.time.LocalDate.ofEpochDay(tweet.getDate()).getMonthValue() == java.time.Month.FEBRUARY.getValue()).forEach(System.out::println);
 
         System.out.println("------------all the tweets for a perticular hashtag------------");
         tweetlist.stream().filter((tweet)->tweet.getHashtags().contains("#java")).forEach(System.out::println);
