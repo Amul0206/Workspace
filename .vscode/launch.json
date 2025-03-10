@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FormatParse",
+            "request": "launch",
+            "mainClass": "Java.Day10.FormatParse",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "DemoZones",
+            "request": "launch",
+            "mainClass": "Java.Day10.DemoZones",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
+            "name": "Time",
+            "request": "launch",
+            "mainClass": "Java.Day10.Time",
+            "projectName": "WORKSPACE_88ac2e1c"
+        },
+        {
+            "type": "java",
             "name": "Date",
             "request": "launch",
             "mainClass": "Java.Day10.Date",
