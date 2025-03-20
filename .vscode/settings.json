@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
         ""
-    ]
+    ],
+    "blackbox.mcp.mode": "off"
 }
